@@ -12,14 +12,14 @@ function Navbar() {
 					<div className="flex items-center h-20 w-full ">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<Link href="/"><a className=" text-white font-bold text-xl cursor-pointer">
-									Ganesh <span className="text-red-500">uthiravasagam</span></a>
+								<Link href="/"><p className=" text-white font-bold text-xl cursor-pointer">
+									Ganesh <span className="text-red-500">uthiravasagam</span></p>
 								</Link>
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 
-									<Link href="/" ><a 
+									<Link href="/" ><p
 
 									className="cursor-pointer 
 									text-white px-3 py-2 text-base font-medium
@@ -28,14 +28,14 @@ function Navbar() {
 									>
 									
 									Home
-									</a>
+									</p>
 									</Link>
 
-									<Link href="/blog" ><a 
+									<Link href="/blog" ><p
 									className="cursor-pointer 
 									text-white px-3 py-2 text-base font-medium bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black "
 									>Blogs
-									</a></Link>
+									</p></Link>
 								</div>
 							</div>
 						</div>
@@ -95,19 +95,19 @@ function Navbar() {
 								ref={ref}
 								className="bg-black mx-4 mr-20 pt-4 pb-4 space-y-1"
 							>
-							<Link href="/" ><a 
+							<Link href="/" ><p
 
 							className="cursor-pointer hover:bg-red-600 text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium"
 							>
 							
 							Home
-							</a>
+							</p>
 							</Link>
 
-							<Link href="/blog" ><a 
+							<Link href="/blog" ><p
 							className="cursor-pointer hover:bg-red-600 text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium"
 							>Blogs
-							</a>
+							</p>
 							</Link>
 
 							</div>

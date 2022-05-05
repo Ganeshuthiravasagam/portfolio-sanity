@@ -25,11 +25,11 @@ function homePage() {
 						<p className="text-left text-white text-3xl font mb-5 flex-wrap">
 						Talks about #ieee, #finance, and #webdevelopment
 						</p>
-						<a
+						<p
 							className="font-semibold text-white md:mt-10 mt-5 pt-5 bg-red-600 transition ease-in-out duration-700 rounded-md w-65 h-16 text-lg"
 						>
 						Check my portfolio and Blogs
-						</a>
+						</p>
 					</div>
 				</div>
 			</div>

@@ -19,10 +19,10 @@ function Services() {
 							<SiReact className="w-[100px] h-[100px] bg-yellow-400 text-black m-3 p-1 shadow-xl rounded-md" />
 							
 						</div>
-						<Link href="https://courses.learncodeonline.in/learn/certificate/4597874-53635"><a className="text-white px-3 py-2 text-base font-medium
-						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black">
+						<Link href="https://courses.learncodeonline.in/learn/certificate/4597874-53635"><p className="text-white px-3 py-2 text-base font-medium
+						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black cursor-pointer ">
 							Certification
-						</a></Link>
+						</p></Link>
 					</div>
 
 					{/* second block */}
@@ -34,10 +34,10 @@ function Services() {
 							<SiPython className="w-[100px] h-[100px] bg-red-400 text-black m-3 p-1 shadow-xl rounded-md" />
 							
 						</div>
-						<Link href="https://www.sololearn.com/certificates/course/en/18381996/1073/landscape/png" ><a className="text-white px-3 py-2 text-base font-medium
-						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black">
+						<Link href="https://www.sololearn.com/certificates/course/en/18381996/1073/landscape/png" ><p className="text-white px-3 py-2 text-base font-medium
+						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black  cursor-pointer">
 							Certification
-						</a></Link>
+						</p></Link>
 					</div>
 				</div>
 
@@ -52,10 +52,10 @@ function Services() {
 							<SiJavascript className="w-[100px] h-[100px] bg-green-500 text-black m-3 p-1 shadow-xl rounded-md" />
 							
 						</div>
-						<Link href="https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/98072/4597874_98072.pdf?1626854292" ><a className="text-white px-3 py-2 text-base font-medium
-						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black">
+						<Link href="https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/2410/certificates/98072/4597874_98072.pdf?1626854292" ><p className="text-white px-3 py-2 text-base font-medium
+						bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black cursor-pointer ">
 							Certification
-						</a>
+						</p>
 						</Link>
 					</div>
 				</div>
