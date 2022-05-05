@@ -95,18 +95,20 @@ function Navbar() {
 								ref={ref}
 								className="bg-black mx-4 mr-20 pt-4 pb-4 space-y-1"
 							>
-							<a 
+							<Link href="/" ><a 
 
 							className="cursor-pointer hover:bg-red-600 text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium"
-							href="/">
+							>
 							
 							Home
 							</a>
+							</Link>
 
-							<a 
+							<Link href="/blog" ><a 
 							className="cursor-pointer hover:bg-red-600 text-white hover:text-black block px-3 py-2 rounded-md text-base font-medium"
-							href="/blog">Blogs
+							>Blogs
 							</a>
+							</Link>
 
 							</div>
 						</div>
