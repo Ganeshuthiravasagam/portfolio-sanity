@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -12,29 +12,30 @@ function Navbar() {
 					<div className="flex items-center h-20 w-full ">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
 							<div className="flex justify-center items-center flex-shrink-0 ">
-								<a href="/" className=" text-white font-bold text-xl cursor-pointer">
-									Ganesh <span className="text-red-500">uthiravasagam</span>
-								</a>
+								<Link href="/"><a className=" text-white font-bold text-xl cursor-pointer">
+									Ganesh <span className="text-red-500">uthiravasagam</span></a>
+								</Link>
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
 
-									<a 
+									<Link href="/" ><a 
 
 									className="cursor-pointer 
 									text-white px-3 py-2 text-base font-medium
 									bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black
 									"
-									href="/">
+									>
 									
 									Home
 									</a>
+									</Link>
 
-									<a 
+									<Link href="/blog" ><a 
 									className="cursor-pointer 
 									text-white px-3 py-2 text-base font-medium bg-red-600 transition ease-in-out duration-700 rounded-md hover:bg-white hover:text-black "
-									href="/blog">Blogs
-									</a>
+									>Blogs
+									</a></Link>
 								</div>
 							</div>
 						</div>
